@@ -1,0 +1,12 @@
+test/
+*.test.ts
+
+
+.vite.config.ts
+tsconfig.json
+yarn.lock
+package-lock.json
+
+src/
+
+node_modules/
