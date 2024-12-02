@@ -1,7 +1,6 @@
 {
   "name": "ant-invariant",
   "description": "A lightweight TypeScript utility for runtime checks using invariant patterns",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -34,5 +33,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/joon623/ant-invariant"
-  }
+  },
+  "license": "MIT"
 }
