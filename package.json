@@ -1,7 +1,7 @@
 {
   "name": "ant-invariant",
   "description": "A lightweight TypeScript utility for runtime checks using invariant patterns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
