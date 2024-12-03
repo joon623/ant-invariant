@@ -31,6 +31,12 @@ export default defineConfig({
       entryRoot: "src",
       include: ["src/**/*.ts"],
       outDir: "dist",
+      beforeWriteFile: (filePath, content) => {
+        return {
+          filePath: filePath.replace("invariant.d.ts", "ant-invariant.d.ts"),
+          content,
+        };
+      },
     }),
   ],
 });
